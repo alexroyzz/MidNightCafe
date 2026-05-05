@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
-import Footer from "./components/footer/footer";
+import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
 import Gallery from "./components/Gallery/Gallery";
 import Contact from "./components/Contact/Contact";
