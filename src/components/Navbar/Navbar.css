@@ -1,0 +1,80 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  color: #ff6b35;
+  font-weight: bold;
+  font-size: 1.5rem;
+  
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+}
+
+/* 🔥 MOBILE */
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .mobile-menu {
+    position: fixed;   /* 🔥 important */
+    top: 70px;
+    right: -100%;      /* hidden */
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background: rgba(0,0,0,0.95);
+    width: 220px;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+    z-index: 1000;
+  }
+
+  .mobile-menu.active {
+    right: 10px;  /* show */
+  }
+
+  .mobile-menu span {
+    color: white;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+}
+/* DESKTOP MENU */
+.mobile-menu {
+  display: flex;
+  gap: 2rem;   /* 🔥 ye hi missing tha */
+}
+
+.mobile-menu span {
+  cursor: pointer;
+  color: white;
+}
+
+/* HAMBURGER hidden desktop */
+.hamburger {
+  display: none;
+}
