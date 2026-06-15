@@ -38,7 +38,7 @@ const Footer = () => {
 
       {/* BOTTOM */}
       <div className="footer-bottom">
-        <p>© 2026 All Rights Reserved By MidNightCafe</p>
+        <p>© 2026 All Rights Reserved By NightCafe</p>
       </div>
     </footer>
   );
