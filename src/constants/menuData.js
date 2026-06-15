@@ -28,8 +28,6 @@ const menuData = {
       price: "₹179",
       image: cheesyPasta,
     },
-  ],
-  burger: [
     {
       id: 4,
       name: "Burger",
@@ -37,8 +35,6 @@ const menuData = {
       price: "₹149",
       image: burger,
     },
-  ],
-  snacks: [
     {
       id: 5,
       name: "Chilli Potato",
@@ -46,7 +42,7 @@ const menuData = {
       price: "₹129",
       image: chilliPotato,
     },
-  ],
+      ],
 };
 
 export default menuData;
