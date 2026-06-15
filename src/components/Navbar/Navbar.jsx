@@ -7,7 +7,7 @@ const Navbar = ({ scrollToSection }) => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <div className="logo">MidNight Cafe</div>
+        <div className="logo">Night Cafe</div>
 
         {/* MENU */}
         <div className={`mobile-menu ${open ? "active" : ""}`}>
